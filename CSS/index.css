@@ -52,7 +52,11 @@ main div img{
     }
 
 .padding-card {
+<<<<<<< HEAD
     padding: 40px 15px;
+=======
+    padding: 30px 15px;
+>>>>>>> master
 }
 
 .font-size {
