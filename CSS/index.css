@@ -113,6 +113,10 @@ main div img{
 
 /* Fin Header */  
 
+.background{
+    background-color: rgb(204, 255, 52);
+}
+
 .h1 {
     display: flex;
     margin: auto;
@@ -191,7 +195,7 @@ main div img{
 
 .font-size-title {
     padding-top: 10px;
-    font-size: 25px;
+    font-size: 22px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -209,9 +213,14 @@ main div img{
     position: absolute;
     text-align: justify;
     width: 100%;
-    margin-top: 50rem;
-    
+    margin-top: 50rem;    
+    display: block;
 }    
+    .footer ul li a {
+        text-decoration: none;
+        list-style: none;
+    }
+
 .form {
     width: 65%;
 }
