@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+section articles img {
+    width: 250px;
+    height: 250px;
+    padding: 15px;
+}
+
+section articles p {
+    color: rgb(0, 0, 0);    
+    text-align: center;
+ 
+}
+
+header {
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+form {
+    margin-left: 50px;
+}
+
+main div img{
+    width: 100%;
+    padding-bottom: 5rem;
+}

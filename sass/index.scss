@@ -1,6 +1,24 @@
-div {
-    background-color: crimson;
-    p {
-        color: blue;
-    }
-}
+/* misc */
+
+@import "./misc/normalize.scss";
+@import "./misc/animation.scss";
+@import "./misc/media__querys.scss";
+
+/* misc */
+
+/* partials */
+
+@import "./partials/header.scss";
+@import "./partials/footer.scss";
+
+/* partials */
+
+/* pages */
+
+@import "./pages/home.scss";
+@import "./pages/productos.scss";
+@import "./pages/nosotros.scss";
+@import "./pages/contacto.scss";
+@import "./pages/marcas.scss";
+
+/* pages */
