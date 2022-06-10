@@ -36,11 +36,11 @@ main div img{
     width: 100%;
     padding-bottom: 5rem;
 }
-
+/* 
 .margin-section{
     margin-top: 5rem;
 }
-
+ */
 .accordion-padding{
     padding: 10px;
 }
@@ -55,10 +55,10 @@ main div img{
     padding: 40px 15px;
 }
 
-.font-size {
+/* .font-size {
     font-size: 30px;
     
-}
+} */
 
 .padding-img {
     padding-top: 5rem;
@@ -165,7 +165,7 @@ main div img{
     75% { margin-left: -300%;}
     100% { margin-left: -300%;}
 }
-.cards {
+/* .cards {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -190,18 +190,20 @@ main div img{
             padding: 1px;
             transition: all 0.4s ;
             
-        }
+        } */
               
-
+/* 
 .font-size-title {
     padding-top: 10px;
     font-size: 22px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-align: center;
-    
+    text-align: center; 
 }
+*/
+    
+
 
 .flex-img{
     display: flex;
