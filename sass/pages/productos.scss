@@ -1,58 +1,62 @@
 .widith {
     width: 85%;
+}    
 
     .widith div li {
         list-style: none;
     }   
-        .accordion-padding{
-        padding: 10px;
-    }
-            .accordion-padding a{
-            list-style: none;
-            font-style: none;
-            text-decoration: none;
-            color: black;
-        }
-                .margin-section{
-                margin-top: 5rem;
 
-                .cards {
-                    display: flex;
-                    flex-direction: row;
-                    flex-wrap: wrap;
-                    padding: 30px;
-                    justify-content: center;
-                    gap: 10px;
-                }    
-                    .cards articles {
-                        border: solid rgba(106, 106, 106, 0.335) 1px;
-                        border-radius: 10px;
-                        display: flex;
-                        flex-direction: row;
-                        width: 280px;
-                        height: 450px;
-                        flex-flow: row wrap;
-                        column-gap: 30px;
-                        justify-content: center;
-                        margin: 30px;       
-                    }
-                        .cards articles:hover{
-                            background-color: rgba(160, 160, 160, 0.09);
-                            padding: 1px;
-                            transition: all 0.4s ;
-                        }
-                            .font-size-title {
-                                padding-top: 10px;
-                                font-size: 22px;
-                                display: flex;
-                                flex-direction: row;
-                                justify-content: center;
-                                text-align: center;
-                            }
-                                .font-size {
-                                font-size: 30px;
-                                
-                                }
-                }
-            }                     
+.accordion-padding{
+padding: 10px;
+}
+    .accordion-padding a{
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+}
+.margin-section{
+margin-top: 5rem
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: center;
+    gap: 10px;
+}    
+    .cards articles {
+        border: solid rgba(106, 106, 106, 0.335) 1px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        width: 280px;
+        height: 450px;
+        flex-flow: row wrap;
+        column-gap: 30px;
+        justify-content: center;
+        margin: 30px;       
+    }
+        .cards articles:hover{
+            background-color: rgba(160, 160, 160, 0.09);
+            padding: 1px;
+            transition: all 0.4s ;
+        }
+
+.font-size-title {
+    padding-top: 10px;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.font-size {
+font-size: 30px;
+                
+}
+                 
             

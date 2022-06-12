@@ -41,7 +41,7 @@ main div img{
     margin-top: 5rem;
 }
  */
-.accordion-padding{
+/* .accordion-padding{
     padding: 10px;
 }
     .accordion-padding a{
@@ -49,7 +49,7 @@ main div img{
         font-style: none;
         text-decoration: none;
         color: black;
-    }
+    } */
 
 .padding-card {
     padding: 40px 15px;
@@ -113,9 +113,9 @@ main div img{
 
 /* Fin Header */  
 
-.background{
+/* .background{
     background-color: rgb(204, 255, 52);
-}
+} */
 
 .h1 {
     display: flex;
@@ -124,12 +124,12 @@ main div img{
                                                                                
 }
 
-.widith {
+/* .widith {
     width: 85%;
 }
     .widith div li {
         list-style: none;
-    }
+    } */
 
 /* .slider {
     width: 80%;
