@@ -20,12 +20,9 @@ margin-top: 5rem
 }
 
 .cards {
-    display: flex;
-    flex-direction: row;
+    @include flex(column, center, center, 10px);
     flex-wrap: wrap;
     padding: 30px;
-    justify-content: center;
-    gap: 10px;
 }    
     .cards articles {
         border: solid rgba(106, 106, 106, 0.335) 1px;
@@ -48,10 +45,7 @@ margin-top: 5rem
 .font-size-title {
     padding-top: 10px;
     font-size: 22px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
+    @include flex(row, center, center, 0px);
 }
 
 .font-size {

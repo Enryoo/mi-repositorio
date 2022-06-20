@@ -151,6 +151,16 @@ main div img {
     text-decoration: none;
     list-style: none; }
 
+.redes {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  list-style: none; }
+
+.redes li a {
+  text-decoration: none;
+  color: black; }
+
 /* partials */
 /* pages */
 .slider {
@@ -188,11 +198,11 @@ main div img {
 
 .cards {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 30px;
   justify-content: center;
-  gap: 10px; }
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 30px; }
 
 .cards articles {
   border: solid rgba(106, 106, 106, 0.335) 1px;
@@ -215,9 +225,9 @@ main div img {
   padding-top: 10px;
   font-size: 22px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  text-align: center; }
+  align-items: center;
+  gap: 0px; }
 
 .font-size {
   font-size: 30px; }
