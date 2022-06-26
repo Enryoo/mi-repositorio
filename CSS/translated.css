@@ -30,6 +30,9 @@ main div img {
   width: 100%;
   padding-bottom: 5rem; }
 
+nav ul {
+  margin-bottom: 0px; }
+
 @keyframes cambio {
   0% {
     margin-left: 0; }
@@ -111,6 +114,33 @@ main div img {
   .form {
     width: 85%; } }
 
+.w-1 {
+  width: 10%; }
+
+.w-2 {
+  width: 20%; }
+
+.w-3 {
+  width: 30%; }
+
+.w-4 {
+  width: 40%; }
+
+.w-5 {
+  width: 50%; }
+
+.w-6 {
+  width: 60%; }
+
+.w-7 {
+  width: 70%; }
+
+.w-8 {
+  width: 80%; }
+
+.w-9 {
+  width: 90%; }
+
 /* misc */
 /* partials */
 .navbar {
@@ -119,19 +149,20 @@ main div img {
   background-color: #ccff34;
   display: grid;
   grid-template-columns: repeat(8, 1fr); }
+  .navbar .navbar ul {
+    margin-bottom: 0px !important; }
   .navbar .logo {
     display: flex;
-    grid-column: 2/3; }
+    grid-column: 4/5; }
   .navbar .menu {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
     list-style: none;
-    grid-column: 4/7; }
+    grid-column: 3/7; }
   .navbar .menu a {
     text-decoration: none;
     color: black;
-    border: solid 1px black;
     border-radius: 0.5rem;
     display: block;
     padding: 0.5rem 1rem;
@@ -140,12 +171,15 @@ main div img {
   .navbar .menu a:hover {
     background-color: rgba(0, 0, 0, 0.081); }
 
+.text_area {
+  width: 20em; }
+
 .footer {
   background-color: whitesmoke;
   position: absolute;
   text-align: justify;
   width: 100%;
-  margin-top: 50rem;
+  margin-top: 5rem;
   display: block; }
   .footer .footer ul li a {
     text-decoration: none;
@@ -179,7 +213,7 @@ main div img {
     width: 100%; }
 
 .widith {
-  width: 85%; }
+  width: 52.5%; }
 
 .widith div li {
   list-style: none; }
@@ -194,7 +228,8 @@ main div img {
   color: black; }
 
 .margin-section {
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  margin: 0em 20em; }
 
 .cards {
   display: flex;
@@ -202,7 +237,8 @@ main div img {
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
-  padding: 30px; }
+  padding: 30px;
+  line-height: 24px; }
 
 .cards articles {
   border: solid rgba(106, 106, 106, 0.335) 1px;
@@ -223,7 +259,7 @@ main div img {
 
 .font-size-title {
   padding-top: 10px;
-  font-size: 22px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;

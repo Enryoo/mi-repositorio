@@ -1,5 +1,5 @@
 .widith {
-    width: 85%;
+    width:52.5%;
 }    
 
     .widith div li {
@@ -16,13 +16,15 @@ padding: 10px;
     color: black;
 }
 .margin-section{
-margin-top: 5rem
+    margin-top: 5rem;
+    margin: 0em 20em;
 }
 
 .cards {
     @include flex(column, center, center, 10px);
     flex-wrap: wrap;
     padding: 30px;
+    line-height: 24px;
 }    
     .cards articles {
         border: solid rgba(106, 106, 106, 0.335) 1px;
@@ -44,7 +46,7 @@ margin-top: 5rem
 
 .font-size-title {
     padding-top: 10px;
-    font-size: 22px;
+    font-size: 20px;
     @include flex(row, center, center, 0px);
 }
 

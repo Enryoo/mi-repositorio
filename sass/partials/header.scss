@@ -5,30 +5,37 @@
     display: grid;
     grid-template-columns: repeat(8,1fr);
 
-        .logo {
-            display: flex;
-            grid-column: 2/3;
+        .navbar ul {
+            margin-bottom: 0px !important;
+        }
+
+.logo {
+    display: flex;
+    grid-column: 4/5;
+}   
+
+.menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    list-style: none;
+    grid-column: 3/7;
+}
+    .menu a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border-radius: 0.5rem;
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.4s ;
+        font-family: 'Roboto', sans-serif;
+    }
+        .menu a:hover{
+            background-color: rgba(0, 0, 0, 0.081);
         }   
 
-        .menu {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            list-style: none;
-            grid-column: 4/7;
-        }
-            .menu a{
-                text-decoration: none;
-                color: rgb(0, 0, 0);
-                border: solid 1px rgb(0, 0, 0);
-                border-radius: 0.5rem;
-                display: block;
-                padding: 0.5rem 1rem;
-                transition: all 0.4s ;
-                font-family: 'Roboto', sans-serif;
-            }
-                .menu a:hover{
-                    background-color: rgba(0, 0, 0, 0.081);
-                }   
+}
 
+.text_area{
+    width: 20em;
 }

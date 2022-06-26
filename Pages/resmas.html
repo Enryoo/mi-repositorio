@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resmas</title>
+    <title>Unicopi | Resmas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/translated.css">
+    <script src="https://kit.fontawesome.com/d1c797fa64.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!--Inicio de Header-->
     <header>
-        <nav class="navbar">
+        <nav class="navbar bg-light">
             <img src="../Images/logo2.png" class="logo" alt="Logo">
-            <ul class="menu">
+            <div class="container-fluid">
+              <form class="d-flex text_area" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                <button class="btn" type="submit">Buscar</button>
+              </form>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <ul class="menu container">
                 <li>
                     <a href="../index.html">Home</a>
                 </li>
@@ -111,14 +120,16 @@
 
      <!--Inicio de Footer-->
 
-     <footer class="footer">
+    <footer class="footer container">
         <p>Todos los derechos reservados © 2000 - Unicopi - Parana 735 C1017 CABA .</p>
-        <ul>
+        <ul class="redes">
             <li>
-                <a href="https://www.instagram.com">Facebook</a>
+                <i class="fa-brands fa-facebook-square"></i>
+                <a href="https://www.facebook.com">Facebook</a>
             </li>
             <li>
-                <a href="https://www.facebook.com">Instagram</a>
+                <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com">Instagram</a> 
             </li>
         </ul>
     </footer>
