@@ -58,7 +58,8 @@ nav ul {
     align-items: center;
     background-color: #ccff34;
     display: grid;
-    grid-template-columns: repeat(8, 1fr); }
+    grid-template-columns: repeat(8, 1fr);
+    grid-column: 1/3; }
   .logo {
     display: flex;
     grid-column: 2/3; }
@@ -67,11 +68,10 @@ nav ul {
     gap: 10px;
     flex-wrap: wrap;
     list-style: none;
-    grid-column: 4/7; }
+    grid-column: 1/8; }
   .menu a {
     text-decoration: none;
     color: black;
-    border: solid 1px black;
     border-radius: 0.5rem;
     display: block;
     padding: 0.5rem 1rem;
@@ -97,11 +97,10 @@ nav ul {
     gap: 10px;
     flex-wrap: wrap;
     list-style: none;
-    grid-column: 4/7; }
+    grid-column: 2/8; }
   .menu a {
     text-decoration: none;
     color: black;
-    border: solid 1px black;
     border-radius: 0.5rem;
     display: block;
     padding: 0.5rem 1rem;
@@ -149,27 +148,33 @@ nav ul {
   background-color: #ccff34;
   display: grid;
   grid-template-columns: repeat(8, 1fr); }
-  .navbar .navbar ul {
-    margin-bottom: 0px !important; }
-  .navbar .logo {
+
+.menu {
+  display: flex;
+  gap: 20px;
+  grid-column: 3/7; }
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  border-radius: 0.5rem;
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s;
+  font-family: 'Roboto', sans-serif; }
+
+.menu a:hover {
+  background-color: rgba(0, 0, 0, 0.081); }
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #ccff34;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); }
+  .header .logo {
     display: flex;
     grid-column: 4/5; }
-  .navbar .menu {
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    list-style: none;
-    grid-column: 3/7; }
-  .navbar .menu a {
-    text-decoration: none;
-    color: black;
-    border-radius: 0.5rem;
-    display: block;
-    padding: 0.5rem 1rem;
-    transition: all 0.4s;
-    font-family: 'Roboto', sans-serif; }
-  .navbar .menu a:hover {
-    background-color: rgba(0, 0, 0, 0.081); }
 
 .text_area {
   width: 20em; }
