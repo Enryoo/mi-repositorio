@@ -1,41 +1,90 @@
-.navbar {
+.navbar1 {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: rgb(204, 255, 52);
-    display: grid;
-    grid-template-columns: repeat(8,1fr);
 
-        .navbar ul {
-            margin-bottom: 0px !important;
+    .cart {
+        border-radius: 1.5rem;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        transition: all 0.4s;
+        margin-left: rem;
+    }
+    
+            .cart:hover{
+                background-color: rgb(204, 255, 52);
         }
+    
+    
+}        
+
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 255, 52);
+    padding: 10px;
+    font-size: 20px;
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        
+    }
+        .menu a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            border-radius: 0.5rem;
+            display: block;
+            padding: 0.5rem 1rem;
+            transition: all 0.4s ;
+            font-family: 'Roboto', sans-serif;
+        }
+            .menu a:hover{
+                background-color: rgba(0, 0, 0, 0.081);
+            }  
+}        
+
+.navbar-collapse, .navbar-expand-lg {
+    display: flex;
+    justify-content: center;
+
+}
 
 .logo {
     display: flex;
-    grid-column: 4/5;
 }   
 
-.menu {
+.group {
     display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
-    list-style: none;
-    grid-column: 3/7;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    gap: 1em;
 }
-    .menu a{
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-        border-radius: 0.5rem;
-        display: block;
-        padding: 0.5rem 1rem;
-        transition: all 0.4s ;
-        font-family: 'Roboto', sans-serif;
+
+.btn{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s ;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}       
+
+    .btn:hover{
+        border-radius: 0.5em;
+        padding: 0.5em 1em;
+        transition: all 0.4s;
+        background-color: rgb(204, 255, 52);
     }
-        .menu a:hover{
-            background-color: rgba(0, 0, 0, 0.081);
-        }   
 
-}
-
-.text_area{
+.search {
     width: 20em;
 }

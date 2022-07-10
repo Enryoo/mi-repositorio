@@ -12,34 +12,42 @@
 <body>
     <!--Inicio de Header-->
     <header>
-        <nav class="navbar bg-light">
-            <img src="../Images/logo2.png" class="logo" alt="Logo">
-            <div class="container-fluid">
-              <form class="d-flex text_area" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
-                <button class="btn" type="submit">Buscar</button>
-              </form>
-            </div>
-          </nav>
-        <nav class="navbar">
-            <ul class="menu container">
-                <li>
-                    <a href="../index.html">Home</a>
+        <nav class="navbar1 navbar bg-light">
+          <img src="../Images/logo2.png" class="logo" alt="Logo">
+          <div class="search">
+            <form class="d-flex " role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+              <button class="btn" type="submit">Buscar</button>
+            </form>
+          </div>
+          <div class="group">
+            <button type="button" class="btn">Iniciar Sesión</button>
+            <img class="cart" src="../Images/cart-shopping.png" alt="carrito de compras">
+          </div>
+        </nav>
+        <nav class="navbar2  navbar navbar-expand-lg">
+          <div class="container-fluid ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="menu">
+                <li class="nav-item">
+                  <a class="nav-line" href="../index.html">Home</a>
                 </li>
-                <li>
-                    <a href="productos.html">Productos</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
                 </li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
+                <li class="nav-item">
+                  <a class="nav-line" href="nosotros.html">Nosotros</a> 
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-line" href="contacto.html">Contacto</a> 
                 </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="marcas.html">Marcas</a>
-                </li>                            
-            </ul>
-        </nav> 
+                <li class="nav-item">
+                  <a class="nav-line" href="marcas.html">Marcas</a> 
+              </ul>
+        </nav>           
     </header>
     <!--Fin de Header-->
     
@@ -118,7 +126,7 @@
         </div>
     </section>
 
-     <!--Inicio de Footer-->
+    <!--Inicio de Footer-->
 
     <footer class="footer container">
         <p>Todos los derechos reservados © 2000 - Unicopi - Parana 735 C1017 CABA .</p>
