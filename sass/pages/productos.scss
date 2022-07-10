@@ -16,7 +16,9 @@ padding: 10px;
     color: black;
 }
 .margin-section{
-margin-top: 5rem
+    margin-top: 3rem;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 .cards {
@@ -45,12 +47,17 @@ margin-top: 5rem
 .font-size-title {
     padding-top: 10px;
     font-size: 22px;
+    line-height: 24px;
     @include flex(row, center, center, 0px);
 }
 
 .font-size {
-font-size: 30px;
-                
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.line-height {
+    line-height: 24px;
 }
                  
             

@@ -137,7 +137,9 @@ nav ul {
     padding: 0.5em; }
   .navbar-collapse, .navbar-expand-lg {
     display: flex;
-    justify-content: s; } }
+    justify-content: s; }
+  .group {
+    padding-top: 1em; } }
 
 /* misc */
 /* partials */
@@ -269,7 +271,9 @@ nav ul {
   color: black; }
 
 .margin-section {
-  margin-top: 5rem; }
+  margin-top: 3rem;
+  padding-left: 10em;
+  padding-right: 10em; }
 
 .cards {
   display: flex;
@@ -299,13 +303,18 @@ nav ul {
 .font-size-title {
   padding-top: 10px;
   font-size: 22px;
+  line-height: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 0px; }
 
 .font-size {
-  font-size: 30px; }
+  font-size: 30px;
+  line-height: 24px; }
+
+.line-height {
+  line-height: 24px; }
 
 .background {
   background-color: #ccff34;
