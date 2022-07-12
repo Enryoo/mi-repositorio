@@ -15,11 +15,7 @@ padding: 10px;
     text-decoration: none;
     color: black;
 }
-.margin-section{
-    margin-top: 3rem;
-    padding-left: 10em;
-    padding-right: 10em;
-}
+
 
 .cards {
     @include flex(column, center, center, 10px);
